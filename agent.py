@@ -12,7 +12,7 @@ import gradio as gr
 os.environ['OPENAI_API_KEY'] = "your-api-key"
 
 
-loader = PyPDFLoader("/Users/ravindargowrigari/Documents/GenAI Training/LLM App HR Assistant Project/1728286846_the_nestle_hr_policy_pdf_2012.pdf")
+loader = PyPDFLoader("./1728286846_the_nestle_hr_policy_pdf_2012.pdf")
 # loader = PyPDFLoader("/Users/ravindargowrigari/Downloads/4q24-fixed-income-presentation.pdf")
 documents = loader.load()         
 
